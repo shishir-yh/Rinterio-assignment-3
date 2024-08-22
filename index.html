@@ -27,6 +27,10 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'grn-pry': '#ABEF5F',
+                        'fc-73': '#737373',
+                        'fc-49': '#494949',
+                        'fc-21': '#212121',
                     }
                 }
             }
@@ -35,8 +39,38 @@
 </head>
 
 <body class="font-manrope">
-    <h1>hellow world</h1>
-    <i class="fa-solid fa-arrow-right rotate-12 "></i>
+    <nav class="container mx-auto ">
+        <div class="navbar bg-white flex justify-between">
+            <!-- div of start Rinterio and icon  -->
+            <div class="">
+                <i class="fa-solid fa-arrow-right -rotate-45 bg-grn-pry mr-2 p-2 rounded-full"></i>
+                <a class=" font-extrabold  text-3xl ">Rinterio</a>
+            </div>
+            <!-- div of middle  -->
+            <div class=" hidden lg:block  ">
+                <a href="" class="text-xl mr-6 fc-73 hover:font-medium ">Home</a>
+                <a href="" class="text-xl mr-6 fc-73 hover:font-medium ">Services</a>
+                <a href="" class="text-xl mr-6 fc-73 hover:font-medium ">Portfolio</a>
+                <a href="" class="text-xl mr-6 fc-73 hover:font-medium ">Blogs</a>
+                <a href="" class="text-xl mr-6 fc-73 hover:font-medium ">Contact Us</a>
+            </div>
+            <!-- div of second mid   -->
+            <div class="hidden lg:block">
+                <i class="fa-solid px-3 py-2 text-xl bg-stone-100 rounded-full fa-magnifying-glass "></i>
+                <i class="fa-solid px-3 py-2 text-xl bg-slate-100 rounded-full fa-cart-shopping fill-white ml-1"></i>
+                <button class="btn bg-grn-pry rounded-3xl text-x font-bold px-1 py-0.5 m-2 ">
+                    Button Consult <i
+                        class="fa-solid fa-arrow-right -rotate-45 bg-black text-white mr-1 p-1 rounded-full"></i>
+                </button>
+            </div>
+            <!-- div of end  -->
+            <div class="lg:hidden">
+                <i class="fa-solid fa-bars text-1xl p-3 bg-slate-100 rounded-full"></i>
+            </div>
+        </div>
+
+    </nav>
+
 </body>
 
 </html>
